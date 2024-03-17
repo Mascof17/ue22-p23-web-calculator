@@ -78,6 +78,7 @@ numberButtons.forEach(button => {
 
 
 decimalButton[0].addEventListener('click', () => {  // facile
+  
   if (ope_1 === '') {
     firstNumber = firstNumber + '.';
     display.textContent = firstNumber;
